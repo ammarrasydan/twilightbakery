@@ -1,0 +1,11 @@
+2022-07-26T07:53:05+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Metabox_Analysis_SEO' not found in C:\xampp\htdocs\twilightbakery\wp-content\plugins\wordpress-seo\admin\class-yoast-dashboard-widget.php:153
+Stack trace:
+#0 C:\xampp\htdocs\twilightbakery\wp-content\plugins\wordpress-seo\admin\class-yoast-dashboard-widget.php(62): Yoast_Dashboard_Widget->show_widget()
+#1 C:\xampp\htdocs\twilightbakery\wp-includes\class-wp-hook.php(307): Yoast_Dashboard_Widget->queue_dashboard_widget('')
+#2 C:\xampp\htdocs\twilightbakery\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\twilightbakery\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\twilightbakery\wp-admin\admin.php(175): do_action('admin_init')
+#5 C:\xampp\htdocs\twilightbakery\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\twilightbakery\wp-content\plugins\wordpress-seo\admin\class-yoast-dashboard-widget.php on line 153
+
